@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEMO"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/lblDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEMO"/>
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/txtDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DEMO"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgDemo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/txtDemo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DEMO"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <ProgressBar
+        android:id="@+id/pbDemo"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/swcDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/rbDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioButton" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/chxDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox" />
+
+
+</LinearLayout>
